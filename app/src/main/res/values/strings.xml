@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TodoListApp</string>
+    <string name="create_todo">create todo</string>
+    <string name="enter_todo_title">Enter Todo Title</string>
+    <string name="enter_your_todo_details">Enter your Todo Details</string>
+    <string name="save">Save</string>
+    <string name="todo_name">Todo Name</string>
+    <string name="updated_at">Updated At</string>
+    <string name="add_todo">Add Todo</string>
+    <string name="empty_list_add_todo">Empty list add todo</string>
+    <string name="btn_add_todo">btn_add_todo</string>
+    <string name="todo_desc">Todo Desc</string>
+    <string name="category">Category</string>
+    <string name="cancel">Cancel</string>
+    <string name="update_todo">Update Todo</string>
+    <string name="save_todo">Save Todo</string>
+    <string name="todo_category_daily">Daily</string>
+    <string name="todo_category_school">School</string>
+    <string name="todo_category_office">Office</string>
+    <string name="todo_category_other">Other</string>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/burgundy_shade_1"
+    tools:context="com.esracangungor.todolistapp.ui.AddEditTodoActivity">
+
+    <RadioGroup
+        android:id="@+id/rg_add_edit_categories"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rb_daily"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_category_daily"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+        <RadioButton
+            android:id="@+id/rb_school"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_category_school"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rb_office"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_category_office"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+        <RadioButton
+            android:id="@+id/rb_other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_category_other"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/et_add_edit_todo_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/enter_todo_title"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rg_add_edit_categories" />
+
+    <EditText
+        android:id="@+id/et_add_edit_todo_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/burgundy_shade_1"
+        android:hint="@string/enter_your_todo_details"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_add_edit_todo_name" />
+
+    <Button
+        android:id="@+id/btn_add_edit_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:text="@string/save"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
