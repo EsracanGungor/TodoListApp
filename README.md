@@ -19,6 +19,8 @@
     <td><img src="/previews/todolist.png" ></td>
     <td><img src="/previews/addtodoscreen.png" ></td>
     <td><img src="/previews/edittodoscreen.png" ></td> 
+  </tr>
+  <tr>
     <td><img src="/previews/widgetconfiguration.png" ></td>
     <td><img src="/previews/emptywidget.png" ></td>
     <td><img src="/previews/widgetwithitem.png" ></td>
