@@ -11,6 +11,8 @@
     <td>Todo List Page</td>
      <td>Add Todo Page</td>
      <td>Edit Todo Page</td>
+  </tr>
+  <tr>
       <td>Widget Configuration</td>
      <td>Empty Widget </td>
      <td>Widget With Item</td>
