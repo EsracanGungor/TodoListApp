@@ -47,7 +47,7 @@ The app's functionality includes:
 - [Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle) for observe Android lifecycles and handle UI states upon the lifecycle changes.
 - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) for manage UI-related data holder and lifecycle aware. Allows data to survive configuration changes such as screen rotations.
 - [Android View Binding](https://developer.android.com/topic/libraries/view-binding)
-- [Koin] (https://insert-koin.io/) for Kotlin dependency injection.
+- [Koin](https://insert-koin.io/) for Kotlin dependency injection.
 
 ## Architecture
 TodoListApp is based on the clean architecture with MVVM(Model - View - View Model) design pattern.
