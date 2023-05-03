@@ -13,15 +13,19 @@
      <td>Edit Todo Page</td>
   </tr>
   <tr>
-      <td>Widget Configuration</td>
-     <td>Empty Widget </td>
-     <td>Widget With Item</td>
-  </tr>
-  <tr>
     <td><img src="/previews/todolist.png" ></td>
     <td><img src="/previews/addtodoscreen.png" ></td>
     <td><img src="/previews/edittodoscreen.png" ></td> 
   </tr>
+  </table>
+<table>
+
+  <tr>
+      <td>Widget Configuration</td>
+     <td>Empty Widget </td>
+     <td>Widget With Item</td>
+  </tr>
+ 
   <tr>
     <td><img src="/previews/widgetconfiguration.png" ></td>
     <td><img src="/previews/emptywidget.png" ></td>
