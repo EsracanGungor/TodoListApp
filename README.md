@@ -1,10 +1,8 @@
-# TodoListApp
 <h1 align="center">TodoListApp</h1>
 
 <p align="center">  
  TodoListApp demonstrates Android Widget development with Coroutines, ViewModel, ViewBinding, Koin and Material Design based on MVVM architecture.</p>
-</br>
-
+ 
 ## Medium
 -For further explanation you can read medium article [click](https://medium.com/@esracangungor/this-article-covers-a-complete-tutorial-about-how-to-make-an-application-with-android-widgets-a34cb00a1093) here.
 
